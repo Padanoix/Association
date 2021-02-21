@@ -1,0 +1,21 @@
+.i-icons {
+    display: block;
+    text-indent: -9999px;
+    width: 1rem;
+    height: 1rem;
+    background-size: 1rem 1rem;
+}
+
+.i-google {
+    background: url(google.svg);
+}
+    
+.i-facebook {
+    background: url(facebook.svg);
+}
+.i-twitter {
+    background: url(twitter.svg);
+}
+.i-instagram {
+    background: url(instagram.svg);
+}
