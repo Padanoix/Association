@@ -4,6 +4,7 @@
     width: 1rem;
     height: 1rem;
     background-size: 1rem 1rem;
+
 }
 
 .i-google {
@@ -18,4 +19,12 @@
 }
 .i-instagram {
     background: url(instagram.svg);
+}
+
+.full:hover{   
+    -webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	transform: scale(1.5);
 }
