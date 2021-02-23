@@ -2,3 +2,33 @@
     width: 3rem;
     height: 3rem;
 }
+
+@font-face {
+    font-family: "Another Danger" ;
+    src: url(police/Another\ Danger\ -\ Demo.otf)
+}
+
+@font-face {
+    font-family: "Milestone";
+    src: url(police/MilestoneFreeVersion-Script.otf);
+}
+
+.me {
+    font-family: "Another Danger" ;
+    font-size: 1rem;
+}
+
+.boat {
+    font-family: "Milestone";
+    font-size: 1.5rem;
+    color: white;
+}
+
+.boat:hover {
+    color: gainsboro;
+}
+
+.nav-item {
+    font-family: "Milestone";
+    font-size: 1rem;
+}
