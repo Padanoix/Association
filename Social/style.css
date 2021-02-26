@@ -1,21 +1,42 @@
-.btn {
+.block-stop {
   display: inline-block;
-  background-color: #7b38d8;
-  border-radius: 10px;
-  border: 4px double #cccccc;
-  color: #eeeeee;
+  background-color: rgb(160, 158, 158);
+  border-radius: 20px;
+  border: 4px solid #353232;
   text-align: center;
   font-size: 28px;
   padding: 20px;
-  width: 200px;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
+  width: 500px;
+  margin-top: 10%;
+  position: relative;
+  left: 35%;
+}
+
+.btn {
+  display: block;
+  background-color: rgb(182, 235, 236);
+  border-radius: 5px;
+  border: 4px solid #353232;
+  text-align: center;
+  font-size: 10px;
+  width: 50px;
+  height: 30px;
   cursor: pointer;
-  margin: 5px;
+  margin-left: 58%;
+  margin-top: 3px;
+  position: static;
+  top: 50%;
+}
+
+.btn a {
+  text-decoration: none;
+  color: black;
 }
 
 .btn:hover {
-  background-color: green;
-  }
+  background-color: rgb(160, 158, 158);
+}
+
+.trashout {
+  margin-left: 28%;
+}
