@@ -32,3 +32,46 @@
     font-family: "Milestone";
     font-size: 1rem;
 }
+
+.box {
+    border: 2px solid #353232;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+    margin: 10px;
+    padding: 5px;
+}
+
+h2 {
+    text-align: center;
+    text-decoration-line: underline;
+    font-family: "Milestone";
+}
+
+.mag {
+    border: 2px solid #353232;
+    border-radius: 5px;
+    background-color:rgb(233, 109, 109);
+    margin: 10px;
+    padding: 5px;
+}
+
+.magArticle {
+    border: 2px solid #353232;
+    border-radius: 5px;
+    background-color:rgb(224, 174, 127);
+    margin: 10px;
+    padding: 5px;
+}
+
+.artmag {
+    text-align: left;
+    text-decoration-line: underline;
+    font-family: "Milestone";
+    font-size: 1.4rem;
+}
+
+.presimg {
+    height: auto;
+    max-width: 100%;
+}
+
