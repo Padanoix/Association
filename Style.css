@@ -36,7 +36,7 @@
 .box {
     border: 2px solid #353232;
     border-radius: 5px;
-    background-color: blanchedalmond;
+    background-color: rgb(247, 225, 192);
     margin: 10px;
     padding: 5px;
 }
@@ -50,7 +50,7 @@ h2 {
 .mag {
     border: 2px solid #353232;
     border-radius: 5px;
-    background-color:rgb(233, 109, 109);
+    background-color:rgb(247, 176, 83);
     margin: 10px;
     padding: 5px;
 }
@@ -58,7 +58,7 @@ h2 {
 .magArticle {
     border: 2px solid #353232;
     border-radius: 5px;
-    background-color:rgb(224, 174, 127);
+    background-color:rgb(247, 225, 192);
     margin: 10px;
     padding: 5px;
 }
@@ -75,3 +75,99 @@ h2 {
     max-width: 100%;
 }
 
+/* Event */
+
+
+.gridBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 70px 1fr 1fr 1fr 1fr;
+    margin: 5px;
+    grid-gap: 10px;
+}
+
+.boxChild1 {
+    border: 2px solid #353232;
+    border-radius: 5px;
+    background-color: rgb(247, 225, 192);
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    text-decoration-line: underline;
+    font-family: "Milestone";
+    font-size: 1.7rem;
+}
+
+.boxEvent {
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-rows: 1fr;
+    border: 2px solid #353232;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    text-decoration-line: none;
+}
+
+.imgBox {
+    margin: 4px;
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.imgEvent {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px gray;
+}
+
+.textEvent {
+    display: inline-block;
+    border: 2px solid #353232;
+    border-radius: 5px;
+    text-align: left;
+    text-decoration-line: none;
+    margin: 10px;
+    padding: 5px;
+    font-family: "arial";
+    font-size: 0.7rem;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    box-shadow: 2px 2px 2px gray;
+}
+
+.textEvent p {
+    margin-bottom: 0rem;
+}
+
+.b1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.b2 {
+    grid-column-start: 4;
+    grid-column-end: 7;  
+}
+
+.titreEvent {
+    font-family: fantasy;
+    font-size: 1.2rem;
+    font-style: italic;
+    text-decoration-line: underline;
+    text-align: center;
+}
+
+.sujetEvent {
+    font-size: 0.7rem;
+}
+
+@media screen and (min-width: 200px) {
+    .boxChild1 {
+        background-color: rgb(255, 14, 195);
+        font-size: 4rem;
+    }
+}
