@@ -121,7 +121,6 @@ h2 {
     width: 100%;
     height: auto;
     border-radius: 10px;
-    box-shadow: 2px 2px 2px gray;
 }
 
 .textEvent {
@@ -136,7 +135,6 @@ h2 {
     font-size: 0.7rem;
     grid-column-start: 2;
     grid-column-end: 3;
-    box-shadow: 2px 2px 2px gray;
 }
 
 .textEvent p {
@@ -165,23 +163,55 @@ h2 {
     font-size: 0.7rem;
 }
 
-@media screen and (max-width: 1024px) and (max-width: 768px) {
-    .boxChild1 {
-        background-color: rgb(255, 14, 195);
-        font-size: 4rem;
+@media screen and (max-width: 970px) and (min-width: 768px) {
+    .gridBox {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows: 70px 1fr 1fr 1fr 1fr;
+        margin: 5px;
+        grid-gap: 0px;
+    }
+    .b1 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    
+    .b2 {
+        grid-column-start: 1;
+        grid-column-end: 4;  
     }
 }
 
-@media screen and (max-width: 768px) and (max-width: 425px) {
-    .boxChild1 {
-        background-color: rgb(235, 255, 59);
-        font-size: 4rem;
+@media screen and (max-width: 768px) and (min-width: 10px) {
+    .gridBox {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows: 70px 1fr 1fr 1fr 1fr;
+        margin: 5px;
+        grid-gap: 0px;
     }
-}
-
-@media screen and (max-width: 425px) {
-    .boxChild1 {
-        background-color: rgb(0, 151, 45);
-        font-size: 4rem;
+    .b1 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    
+    .b2 {
+        grid-column-start: 1;
+        grid-column-end: 4;  
+    }
+    .boxEvent {
+        display: block;
+        width: 100%;
+    }
+    .imgBox {
+        width: 100%;
+        margin: 0;
+        padding: 6px;
+    }
+    .textEvent {
+       width: 100%;
+       margin: 0;
+       padding: 0px;
+       border: 2px solid #ffffff;
     }
 }
